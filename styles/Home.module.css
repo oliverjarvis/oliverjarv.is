@@ -1,0 +1,7 @@
+.container {
+  @apply flex flex-row justify-center m-2;
+}
+
+.gridcontainer {
+  @apply grid grid-cols-12 max-w-screen-xl  w-full gap-5;
+}

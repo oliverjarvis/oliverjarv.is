@@ -1,0 +1,31 @@
+.header {
+  @apply h-[56px] bg-white flex flex-col justify-center items-center;
+}
+
+.logotext {
+  @apply text-lg font-semibold;
+}
+
+.nav {
+  @apply flex flex-row max-w-screen-xl justify-between items-center text-black w-full;
+}
+
+.button {
+  @apply bg-blue-500 py-2 px-4 rounded;
+}
+
+.navitems {
+  @apply hidden md:grid grid-cols-5 gap-4;
+}
+
+.hamburger {
+  @apply md:hidden flex flex-col justify-between w-8 h-6;
+}
+
+.hamburgerbar {
+  @apply w-8 h-1 bg-white;
+}
+
+.authbuttons {
+  @apply hidden md:flex gap-2;
+}
