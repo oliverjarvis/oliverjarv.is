@@ -1,7 +1,4 @@
 /* eslint-disable prettier/prettier */
-import siteMetadata from '@/data/siteMetadata'
-import projectsData from '@/data/projectsData'
-import Card from '@/components/Card'
 import { useState } from 'react'
 import { useEffect } from 'react'
 
