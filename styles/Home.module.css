@@ -1,7 +1,25 @@
 .container {
-  @apply flex flex-row justify-center m-2;
+  @apply flex flex-col justify-center items-center m-2 mt-[56px];
 }
 
 .gridcontainer {
   @apply grid grid-cols-12 max-w-screen-xl  w-full gap-5;
+}
+
+.header {
+  @apply w-full max-w-screen-xl  my-5 text-black font-black;
+}
+
+.contact_bg {
+  @apply col-span-12 rounded-[35px] my-8 h-[700px];
+}
+
+.comingsoon {
+  @apply flex flex-row justify-center items-center w-auto col-span-12 h-[300px] rounded-[35px] bg-gradient-to-b from-gray-900 to-gray-600;
+}
+
+.textgradient {
+  @apply text-5xl font-black bg-gradient-to-r from-fuchsia-500 via-red-600 to-orange-400;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
