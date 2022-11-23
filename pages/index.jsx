@@ -17,7 +17,7 @@ export default function Home() {
   const resourcesRef = useRef(null);
   const contactRef = useRef(null);
 
-  function scrollTo(pos: any){
+  function scrollTo(pos){
     window.scrollTo({
       top: Math.max(0, pos - 66),
       behavior: "smooth"
