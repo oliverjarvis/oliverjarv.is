@@ -15,7 +15,7 @@
 }
 
 .comingsoon {
-  @apply flex flex-row justify-center items-center w-auto col-span-12 h-[300px] rounded-[35px] bg-gradient-to-b from-gray-900 to-gray-600;
+  @apply flex flex-row justify-center items-center w-auto col-span-12 h-[200px] md:h-[300px] rounded-[35px] bg-gradient-to-b from-gray-900 to-gray-600;
 }
 
 .textgradient {
