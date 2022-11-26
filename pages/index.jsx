@@ -96,14 +96,14 @@ export default function Home() {
   return (
     <div  id="home" className={styles.container}>
       <div ref={homeRef} className={styles.gridcontainer}>
-        <div className="rounded-[35px] bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-16 h-[500px] col-span-12 md:col-span-8 flex flex-col justify-between">
+        <div className="rounded-[35px] bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-8 md:p-16 h-[500px] col-span-12 md:col-span-8 flex flex-col justify-between">
           <div className="">
-            <h1 className="text-4xl font-bold mb-6">Hey. My name is Oliver.</h1>
-            <p className="text-3xl font-light mb-3">I'm a software developer and data scientist, with huge passion and drive. And a huge entreupeneural mindset. Please check my page for a look at some of the work I've done. </p>
+            <h1 className="text-2xl lg:text-4xl font-bold mb-6">Hey. My name is Oliver.</h1>
+            <p className="text-2xl lg:text-3xl font-light mb-3">I'm a software developer and data scientist, with huge passion and drive. And a huge entreupeneural mindset. Please check my page for a look at some of the work I've done. </p>
           </div>
-          <div className="flex flex-row">
+          <div className="flex flex-row -m-4 md:-m-0">
             <a href="mailto:hey@oliverjarv.is"><button className="bg-white p-5 hover:scale-105 transition ease-in-out duration-300 font-semibold text-[#444] rounded-full">Contact me</button></a>
-            <div className="mx-4">
+            <div className="">
               <a href="https://www.linkedin.com/in/oliver-simon-jarvis-742bab1a9/"><button className="bg-white p-5 hover:scale-110 transition ease-in-out duration-300 rounded-full mx-1 sition"><FaLinkedin size={25}/></button></a>
               <a href="https://github.com/oliverjarvis"><button className="bg-white p-5 rounded-full mx-1 sition hover:scale-110 transition ease-in-out duration-300"><FaGithub size={25}/></button></a>
               <a href="https://www.youtube.com/channel/UCVOmSWZ3XNG8q1VlZ8UQ_Kw"><button className="bg-white p-5 hover:scale-110 transition ease-in-out duration-300 rounded-full mx-1 sition"><FaYoutube size={25}/></button></a>
