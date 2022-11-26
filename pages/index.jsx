@@ -96,7 +96,7 @@ export default function Home() {
   return (
     <div  id="home" className={styles.container}>
       <div ref={homeRef} className={styles.gridcontainer}>
-        <div className="rounded-[35px] bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-16 h-[500px] col-span-8 flex flex-col justify-between">
+        <div className="rounded-[35px] bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-16 h-[500px] col-span-12 md:col-span-8 flex flex-col justify-between">
           <div className="">
             <h1 className="text-4xl font-bold mb-6">Hey. My name is Oliver.</h1>
             <p className="text-3xl font-light mb-3">I'm a software developer and data scientist, with huge passion and drive. And a huge entreupeneural mindset. Please check my page for a look at some of the work I've done. </p>
@@ -119,10 +119,10 @@ export default function Home() {
       </div>
 
       <div className={styles.gridcontainer}>
-        <div className="bg-red-100 col-span-3 aspect-square rounded-3xl cursor-pointer"></div>
-        <div className="bg-red-100 col-span-3 aspect-square rounded-3xl cursor-pointer"></div>
-        <div className="bg-red-100 col-span-3 aspect-square rounded-3xl cursor-pointer"></div>
-        <div className="bg-gradient-to-b from-gray-900 to-gray-600 pointer-cursor text-white col-span-3 aspect-square rounded-3xl flex font-black text-xl justify-center items-center">
+        <div className="bg-red-100 col-span-6 md:col-span-3 aspect-square rounded-3xl cursor-pointer"></div>
+        <div className="bg-red-100 col-span-6 md:col-span-3 aspect-square rounded-3xl cursor-pointer"></div>
+        <div className="bg-red-100 col-span-6 md:col-span-3 aspect-square rounded-3xl cursor-pointer"></div>
+        <div className="bg-gradient-to-b from-gray-900 to-gray-600 pointer-cursor text-white col-span-6 md:col-span-3 aspect-square rounded-3xl flex font-black text-xl justify-center items-center">
           <button>Read more</button>
         </div>
       </div>

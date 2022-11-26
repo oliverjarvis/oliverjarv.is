@@ -19,13 +19,25 @@
 }
 
 .hamburger {
-  @apply md:hidden flex flex-col justify-between w-8 h-6;
+  @apply md:hidden flex flex-col justify-between h-5 w-6 mr-4 z-20;
 }
 
 .hamburgerbar {
-  @apply w-8 h-1 bg-white;
+  @apply w-full h-1 bg-black;
 }
 
 .authbuttons {
   @apply hidden md:flex gap-2;
+}
+
+.mobilemenu {
+  @apply md:hidden flex flex-col justify-center items-center bg-white w-screen h-screen fixed top-0 left-0 z-10;
+}
+
+.mobilemenuitems {
+  @apply flex flex-col justify-center items-center gap-4;
+}
+
+.open {
+  @apply block;
 }
